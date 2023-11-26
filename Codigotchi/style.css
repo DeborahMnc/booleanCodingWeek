@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    background: linear-gradient( #838ef9 , #3535ec );
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    padding: 16px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+header img {
+    margin-bottom: 32px;
+    width: 56px;
+    height: auto;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px 24px;
+    margin-bottom: 16px;
+}
+
+.codigotchi {
+
+}
+
+.panel .panel-microphone {
+
+}
+
+button {
+    border-radius: 50%;
+    border: none;
+    background-color: #f71469;
+}

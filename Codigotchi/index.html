@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/icon.png">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="script.js"> </script>
+
+    <title>Codigotchi</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="images/logo.png" alt="Logo Coding Week">
+        </header>
+
+        <main>
+            <section class="codigotchi">
+                <img src="images/codigotchi.png" alt="">
+                <div id="screen" class="codigotchi-screen"></div>
+            </section>
+
+            <section id="panels-data" class="panels">
+                <div class="panel panel-microphone">
+                    <button id="microphone">
+                        <img src="images/mic.png" alt="microphone">
+                    </button>
+                    <h2>Activate microphone</h2>
+                </div>
+
+                <div class="panel panel-commands">
+                    <h2>Speak one of the commands below</h2>
+                    <h3>Supported Commands</h3>
+                    <div class="commands">
+                        <ul>
+                            <li>Eat</li>
+                            <li>Dance</li>
+                            <li>Sleep</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <p id="transcript"></p>
+        </main>
+
+
+    </div>
+    
+</body>
+</html>
